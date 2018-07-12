@@ -20,7 +20,7 @@ public class Player_Movement : MonoBehaviour
         anim = PlayerObject.GetComponent<Animator>();
        
     }
-    //fix update run smoot on low fps
+    //fix update run smooth on low fps
     void FixedUpdate()
     {
         //axis key can change on edit -> project seting -> input
@@ -48,15 +48,10 @@ public class Player_Movement : MonoBehaviour
             }
             anim.SetBool("jump", false);
         }
-        else {
+        else
+		{
             anim.SetBool("jump", true);
         }
-
-		if (Input.GetKey(KeyCode.LeftShift))
-		{
-			movementSpeed += 2f * Time.deltaTime;
-		}
-
         Debug.Log(IsGrounded);
     }
     void Movement(Vector3 _dir)

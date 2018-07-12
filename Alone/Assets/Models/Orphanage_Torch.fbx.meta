@@ -3,12 +3,21 @@ guid: a91643273dbc5d444825208302de7c55
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Material
-    2300000: //RootNode
-    3300000: //RootNode
+    100000: Cylinder
+    100002: //RootNode
+    100004: Torch
+    400000: Cylinder
+    400002: //RootNode
+    400004: Torch
+    2100000: Material.001
+    2100002: Material
+    2300000: Cylinder
+    2300002: Torch
+    3300000: Cylinder
+    3300002: Torch
     4300000: Cylinder
+    4300002: Torch
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
